@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('img/pasto.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+#gameCanvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('img/tierra.jpg'); /* Ruta de tu imagen de fondo para el mapa */
+    background-size: cover;
+}
+
+#audioControlContainer {
+    position: absolute;
+    top: 10px; /* Ajusta la posición superior según tus necesidades */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    text-align: center;
+    width: 100%;
+    color: #000000; /* Color del texto */
+}
+
+#volumeControl {
+    width: 50%; /* Ajusta el ancho del control según tus necesidades */
+    margin-top: 10px; /* Ajusta el espacio entre el texto y el control */
+}
+
+#audioText {
+    font-size: 25px; /* Ajusta el tamaño del texto según tus necesidades */
+    margin-bottom: 5px; /* Ajusta el espacio entre el texto y el control */
+}
+
+/* Agrega estilos para el botón */
+#dinoGameButton {
+    position: absolute;
+    bottom: 10px; /* Ajusta este valor según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Muestra como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos adicionales según tus preferencias */
